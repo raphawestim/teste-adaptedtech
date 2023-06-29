@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: center;
   font-size: 24px;
+  overflow: hidden;
 }
 
 .slider4 {
@@ -22,6 +23,7 @@
   background-size: cover;
   display: block;
   font-size: 24px;
+  height: 100%;
 }
 
 .swiper-pagination {
@@ -32,7 +34,22 @@
   font-size: 24px;
 }
 
-.swiper-button-next,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border-width: 4px;
+  color: #fff;
+  border-color: #fff; /* Cor da borda */
+}
+
 .swiper-button-prev {
   position: absolute;
   top: 50%;
@@ -62,11 +79,11 @@
 }
 
 .swiper-button-next {
-  right: 10px;
+  right: 20px;
 }
 
 .swiper-button-prev {
-  left: 10px;
+  left: 20px;
 }
 
 .scrollable-content {
@@ -96,6 +113,10 @@
   text-align: center;
   display: flex;
   flex-direction: column !important;
+}
+
+html {
+  min-height: 100vw;
 }
 
 body {
