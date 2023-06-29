@@ -5,7 +5,7 @@ html{
 body {
   min-height: 100vh;
   overflow: hidden;
-  background-image: url("../img/fundo.png");
+  // background-image: url("../img/fundo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -525,19 +525,7 @@ body {
 }
 
 .box-destaque{
-  // position: relative;
-
-  // &::after{
-  //   content: "";
-  //   width: 65vw;
-  //   height: 37vw;
-  //   background-image: url(../data/img/line-destaque.png);
-  //   background-repeat: no-repeat;
-  //   position: absolute;
-  //   top: -112%;
-  //   left: -12%;
-  //   transform: translateX(-50%);
-  // }
+  position: relative;
 
   .texto-destaque{
     font-family: 'montserrat', Arial, Helvetica, sans-serif;
@@ -545,7 +533,6 @@ body {
     font-size: 1em;
     color: #205611;
   }
-
 
 }
 
@@ -867,6 +854,22 @@ body {
     }
 
   }
+
+  // .box-destaque{
+  //   .imagem-svg {
+  //     display: none;
+  //   }
+  //   .texto-destaque{
+  //     font-family: 'montserrat', Arial, Helvetica, sans-serif;
+  //     font-weight: medium !important;
+  //     font-size: 1em;
+  //     color: #205611;
+  //     position: revert;
+  //     width: 100%;
+  //   }
+  
+  
+  // }
 }
 
 

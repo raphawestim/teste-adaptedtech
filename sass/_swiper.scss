@@ -4,27 +4,47 @@
 }
 
 .swiper-slide {
-  background-image: url("../img/fundo.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
   overflow: hidden;
 
-}
-
-.slider4 {
+  &.slider1 {
+    background-image: url("../img/fundo4.png") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  &.slider2 {
+    background-image: url("../img/fundo3.png") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  &.slider3 {
   background-image: url("../img/fundo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: block;
-  font-size: 24px;
-  height: 100%;
+  }
+  
+
+  &.slider4 {
+    background-image: url("../img/fundo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    font-size: 24px;
+    height: 100%;
+  }
+
 }
+
+
 
 .swiper-pagination {
   position: absolute;
