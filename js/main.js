@@ -16,9 +16,6 @@ document.addEventListener('DOMContentLoaded', function(){
   });
 })
 
-
-
-
 // var swiperOnepage = new Swiper('.swiper-container-onePage', {
 //   slidesPerView: 1,
 //   spaceBetween: 10,
