@@ -2,6 +2,7 @@
 .swiper-container {
   height: 100vh;
   max-height: 100vh;
+  overflow: auto;
 }
 
 .swiper-slide {
